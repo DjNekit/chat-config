@@ -45,6 +45,7 @@ services:
       DB_HOST: mysql
       DB_PORT: 3306
       DB_PASSWORD: root
+      DB_NAME: chatDatabase
       DB_USER: root
       SECRET: 'any secret'
     depends_on:
