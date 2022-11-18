@@ -1,0 +1,6 @@
+[submodule "nextclient"]
+	path = frontend
+	url = https://github.com/DjNekit/nextclient
+[submodule "nest_backend"]
+	path = backend
+	url = https://github.com/DjNekit/nest_backend
