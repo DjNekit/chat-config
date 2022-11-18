@@ -24,6 +24,7 @@ services:
     ports:
       - '80:3000'
     environment:
+      NODE_ENV: development
       API: http://nginx
       NEXT_PUBLIC_API: http://localhost:3000
     depends_on:
