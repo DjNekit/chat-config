@@ -50,6 +50,7 @@ services:
       DB_PASSWORD: root
       DB_NAME: chatDatabase
       DB_USER: root
+      COOKIE_DOMAIN: 'localhost'
       SECRET: 'any secret'
     depends_on:
       - mysql
