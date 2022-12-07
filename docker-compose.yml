@@ -27,7 +27,6 @@ services:
       NODE_ENV: development
       API: http://nginx
       NEXT_PUBLIC_API: http://localhost:3000
-      HOST: localhost
     depends_on:
       - nginx
     networks:
