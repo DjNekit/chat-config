@@ -50,7 +50,7 @@ services:
       DB_PASSWORD: root
       DB_NAME: chatDatabase
       DB_USER: root
-      COOKIE_DOMAIN: 'localhost'
+      COOKIE_DOMAIN: https://nextclient-jade.vercel.app/
       SECRET: 'any secret'
     depends_on:
       - mysql
